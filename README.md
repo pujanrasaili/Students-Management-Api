@@ -1,22 +1,22 @@
-# 🎓 Student Management REST API
+# Student Management REST API
 
 A professional REST API built with **Python Flask** for managing student records at Bedfordshire University. Features JWT authentication, full CRUD operations, search/filter capabilities, and auto-generated Swagger documentation.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ **Full REST API** — GET, POST, PUT, DELETE for student records
-- ✅ **JWT Authentication** — Secure login with password hashing
-- ✅ **Search & Filter** — Search students by name, ID, or course
-- ✅ **Statistics Endpoint** — Total students, average GPA, students per course
-- ✅ **Swagger UI Docs** — Auto-generated API documentation at `/docs`
-- ✅ **SQLite Database** — Lightweight, zero-config database
-- ✅ **Professional Error Handling** — Clean JSON error responses
+- **Full REST API** — GET, POST, PUT, DELETE for student records
+- **JWT Authentication** — Secure login with password hashing
+- **Search & Filter** — Search students by name, ID, or course
+- **Statistics Endpoint** — Total students, average GPA, students per course
+- **Swagger UI Docs** — Auto-generated API documentation at `/docs`
+- **SQLite Database** — Lightweight, zero-config database
+- **Professional Error Handling** — Clean JSON error responses
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -29,7 +29,7 @@ A professional REST API built with **Python Flask** for managing student records
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 student-management-api/
@@ -46,7 +46,7 @@ student-management-api/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -85,7 +85,7 @@ Once running, visit **[http://127.0.0.1:5000/docs](http://127.0.0.1:5000/docs)**
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 All student endpoints require a valid JWT token. Follow these steps:
 
@@ -195,7 +195,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 🗄️ Data Models
+## Data Models
 
 ### User
 | Field | Type | Notes |
@@ -219,13 +219,13 @@ Authorization: Bearer <token>
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Pujan Rasaili**
 Bedfordshire University — Software Engineering
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic and portfolio purposes.
